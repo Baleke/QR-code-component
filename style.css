@@ -18,9 +18,9 @@ body{
 
 .card{
     width: 280px;
-    border: 2px solid white;
+    border: 2px solid hsl(0, 0%, 100%);
     border-radius: 20px;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .card .myinformations{
@@ -42,12 +42,14 @@ body{
 .card .mainTitle{
     text-align: center;
     font-weight: 700;
+    color: hsl(218, 44%, 22%);
 }
 
 .card .subTitle{
     text-align: center;
     font-weight: 400;
     padding-bottom: 15px;
+    color: hsl(220, 15%, 55%)
 }
 
 footer{
